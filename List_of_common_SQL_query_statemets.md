@@ -6,9 +6,6 @@
 ## Database creation
 
 ```
-***
-
-```
 The following SQL statement creates a database called "testDB":
     CREATE DATABASE testDB;
 ```
@@ -66,6 +63,7 @@ value which means no data is stored for those entries
         Address varchar(255) NULL,
         City varchar(255) NULL
     );    
+```
 ***
 
 ## Queries
