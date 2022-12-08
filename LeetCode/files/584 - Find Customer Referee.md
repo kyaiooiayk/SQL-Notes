@@ -50,6 +50,6 @@ SQL type
 # Solution #1
 ```
 SELECT name FROM Customer
-WHERE referee_id != 2;
+WHERE (referee_id IS NULL or referee_id != 2);
 ```
 ***
