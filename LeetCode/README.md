@@ -1,6 +1,7 @@
 # LeetCode SQL problems
 
 - [183 - Customers Who Never Order.md](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/183%20-%20Customers%20Who%20Never%20Order.md)
+- [196 - Delete Duplicate Emails]()
 - [584 - Find Customer Referee](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/584%20-%20Find%20Customer%20Referee.md)
 - [595 - Big Countries](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/595%20-%20Big%20Countries.md)
 - [627 - Swap salary](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/627%20-%20Swap%20Salary.md)
