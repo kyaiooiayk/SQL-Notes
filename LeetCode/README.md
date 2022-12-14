@@ -1,6 +1,7 @@
 # LeetCode SQL problems
 
 - [175 - Combine Two Tables](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/175%20-%20Combine%20Two%20Tables.md)
+- [182 - 182 - Duplicate emails]()
 - [183 - Customers Who Never Order.md](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/183%20-%20Customers%20Who%20Never%20Order.md)
 - [196 - Delete Duplicate Emails](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/196%20-%20Delete%20Duplicate%20Emails.md)
 - [584 - Find Customer Referee](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/584%20-%20Find%20Customer%20Referee.md)
