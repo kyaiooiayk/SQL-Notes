@@ -9,7 +9,7 @@ Each notebook has two versions (all python scripts are unaffected by this):
 ***
 
 # How to practice
-- [www.w3schools.com](https://www.w3schools.com/sql/default.asp) has a very some very nice tutorials where you can also try out your code in an interpreter running on your web browser. 
+- [www.w3schools.com](https://www.w3schools.com/sql/default.asp) has some very nice tutorials where you can also try out your code in an interpreter running on their web browser. 
 ***
 
 ## Other resources
