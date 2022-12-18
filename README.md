@@ -1,5 +1,5 @@
-# SQL and MySQL
-*List of notebooks focused on SQL and MySQL*
+# SQL
+*List of notebooks/cheatsheets and more focused on SQL*
 ***
 
 ## A note on the notebook rendering
@@ -8,7 +8,7 @@ Each notebook has two versions (all python scripts are unaffected by this):
 - One where all the markdown comments are rendered in coloured.
 ***
 
-# How to practice
+## How to practice
 - [www.w3schools.com](https://www.w3schools.com/sql/default.asp) has some very nice tutorials where you can also try out your code in an interpreter running on their web browser. 
 ***
 
