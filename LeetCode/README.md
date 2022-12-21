@@ -4,7 +4,7 @@
 - [182 - Duplicate emails](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/182%20-%20Duplicate%20emails.md)
 - [183 - Customers Who Never Order.md](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/183%20-%20Customers%20Who%20Never%20Order.md)
 - [196 - Delete Duplicate Emails](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/196%20-%20Delete%20Duplicate%20Emails.md)
-- [197 - Rising Temperature]()
+- [197 - Rising Temperature](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/197%20-%20Rising%20Temperature.md)
 - [584 - Find Customer Referee](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/584%20-%20Find%20Customer%20Referee.md)
 - [595 - Big Countries](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/595%20-%20Big%20Countries.md)
 - [627 - Swap salary](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/627%20-%20Swap%20Salary.md)
