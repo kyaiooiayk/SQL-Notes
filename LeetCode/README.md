@@ -8,6 +8,7 @@
 - [584 - Find Customer Referee](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/584%20-%20Find%20Customer%20Referee.md)
 - [595 - Big Countries](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/595%20-%20Big%20Countries.md)
 - [627 - Swap salary](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/627%20-%20Swap%20Salary.md)
+- [1484 - Group Sold Products By The Date]()
 - [1757 - Recyclable and Low Fat Products](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1757%20-%20Recyclable%20and%20Low%20Fat%20Products.md)
 - [1873 - Calculate Special Bonus](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1873%20-%20Calculate%20Special%20Bonus.md)
 ***
