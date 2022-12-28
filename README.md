@@ -10,6 +10,12 @@ Each notebook has two versions (all python scripts are unaffected by this):
 
 ## How to practice
 - [www.w3schools.com](https://www.w3schools.com/sql/default.asp) has some very nice tutorials where you can also try out your code in an interpreter running on their web browser. 
+- [leetcode](https://leetcode.com/) also allows you to try out some problem directly on your browser.
+***
+
+## How many versions exhist?
+- MySQL is an open-source database.
+- Oracle SQL is not open-source.
 ***
 
 ## Other resources
@@ -18,4 +24,5 @@ Each notebook has two versions (all python scripts are unaffected by this):
 - https://e2eml.school/sql_resources.html
 - https://realpython.com/pandas-groupby/
 - https://github.com/imrankhan17/apprentices-training/tree/master/session3
+- [MySQL vs Oracle SQL](https://towardsdatascience.com/mysql-vs-oracle-sql-a97a7659f992)
 ***
