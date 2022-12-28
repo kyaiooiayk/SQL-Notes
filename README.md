@@ -14,8 +14,9 @@ Each notebook has two versions (all python scripts are unaffected by this):
 ***
 
 ## How many versions exhist?
-- MySQL is an open-source database.
-- Oracle SQL is not open-source.
+- MySQL is an open-source relational database system.
+- Oracle SQL is also a relational database system but it's not open-source.
+- PostgreSQL is an open-source, object-relational database management system. It is fully SQL-compliant and was built to be feature-rich.
 ***
 
 ## Other resources
@@ -25,4 +26,5 @@ Each notebook has two versions (all python scripts are unaffected by this):
 - https://realpython.com/pandas-groupby/
 - https://github.com/imrankhan17/apprentices-training/tree/master/session3
 - [MySQL vs Oracle SQL](https://towardsdatascience.com/mysql-vs-oracle-sql-a97a7659f992)
+- [PostgreSQL vs MySQL: Explore Their 12 Critical Differences](https://kinsta.com/blog/postgresql-vs-mysql/)
 ***
