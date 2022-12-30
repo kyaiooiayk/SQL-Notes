@@ -9,6 +9,7 @@
 - [197 | Rising Temperature](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/197%20-%20Rising%20Temperature.md)
 - [511 | Game Play Analysis I](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/511%20-%20Game%20Play%20Analysis%20I.md)
 - [584 | Find Customer Referee](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/584%20-%20Find%20Customer%20Referee.md)
+- [586 | Customer Placing the Largest Number of Orders.md]()
 - [595 | Big Countries](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/595%20-%20Big%20Countries.md)
 - [627 | Swap salary](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/627%20-%20Swap%20Salary.md)
 - [1484 | Group Sold Products By The Date](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1484%20-%20Group%20Sold%20Products%20By%20The%20Date.md)
