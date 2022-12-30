@@ -41,4 +41,16 @@ insert into orders (order_number, customer_number) values ('4', '3')
 ***
 
 ## Solution #1
+```
+SELECT  customer_number
+FROM    orders
+GROUP BY customer_number
+# The DESC keyword allows you to show the highest count first, ORDER BY by default orders in ascending order which would show the lowest count first.
+ORDER BY COUNT(order_number) DESC 
+LIMIT 1
+```
+***
+
+## Reference
+- [SQL Order By Count](https://stackoverflow.com/questions/9545637/sql-order-by-count)
 ***
