@@ -54,5 +54,8 @@ insert into Courses (student, class) values ('I', 'Math')
 
 ## Solution #1
 ```
+SELECT class FROM Courses
+GROUP BY class
+HAVING count(class)>5
 ```
 ***
