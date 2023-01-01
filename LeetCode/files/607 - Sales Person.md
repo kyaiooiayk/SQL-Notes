@@ -74,5 +74,21 @@ insert into Orders (order_id, order_date, com_id, sales_id, amount) values ('4',
 
 ## Solution #1
 ```
+SELECT  s.name
+FROM salesperson s
+LEFT JOIN orders o ON (o.sales_id=s.sales_id)
+
+LEFT JOIN company c ON (o.com_id=c.com_id)
+GROUP BY s.name
+HAVING COUNT(order_id)=0 OR NOT SUM(c.name='RED')>0
+```
+***
+
+## Solution #2
+```
+SELECT name FROM salesperson
+WHERE sales_id NOT IN 
+    (SELECT sales_id FROM orders WHERE com_id IN 
+	(SELECT com_id FROM company WHERE name='RED'))
 ```
 ***
