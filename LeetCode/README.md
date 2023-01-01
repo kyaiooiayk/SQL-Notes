@@ -12,7 +12,7 @@
 - [586 | Customer Placing the Largest Number of Orders](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/586%20-%20Customer%20Placing%20the%20Largest%20Number%20of%20Orders.md)
 - [595 | Big Countries](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/595%20-%20Big%20Countries.md)
 - [596 | Classes More Than 5 Students](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/596%20-%20%20Classes%20More%20Than%205%20Students.md)
-- [607 | Sales Person]()
+- [607 | Sales Person](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/607%20-%20Sales%20Person.md)
 - [627 | Swap salary](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/627%20-%20Swap%20Salary.md)
 - [1484 | Group Sold Products By The Date](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1484%20-%20Group%20Sold%20Products%20By%20The%20Date.md)
 - [1757 | Recyclable and Low Fat Products](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1757%20-%20Recyclable%20and%20Low%20Fat%20Products.md)
