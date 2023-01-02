@@ -47,5 +47,8 @@ insert into cinema (id, movie, description, rating) values ('5', 'House card', '
 
 ## Solution #1
 ```
+SELECT * FROM Cinema
+WHERE NOT description='boring' AND  ID%2
+ORDER BY rating DESC
 ```
 ***
