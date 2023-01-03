@@ -15,6 +15,7 @@
 - [607 | Sales Person](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/607%20-%20Sales%20Person.md)
 - [620 | Not Boring Movies](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/620%20-%20Not%20Boring%20Movies.md)
 - [627 | Swap salary](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/627%20-%20Swap%20Salary.md)
+- [1050 - Actors and Directors Who Cooperated At Least Three Times]()
 - [1484 | Group Sold Products By The Date](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1484%20-%20Group%20Sold%20Products%20By%20The%20Date.md)
 - [1757 | Recyclable and Low Fat Products](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1757%20-%20Recyclable%20and%20Low%20Fat%20Products.md)
 - [1873 | Calculate Special Bonus](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1873%20-%20Calculate%20Special%20Bonus.md)
