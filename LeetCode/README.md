@@ -17,6 +17,7 @@
 - [627 | Swap salary](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/627%20-%20Swap%20Salary.md)
 - [1050 | Actors and Directors Who Cooperated At Least Three Times](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1050%20-%20Actors%20and%20Directors%20Who%20Cooperated%20At%20Least%20Three%20Times.md)
 - [1084 | Sales Analysis III](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1084%20-%20Sales%20Analysis%20III.md)
+- [1141 | User Activity for the Past 30 Days I]()
 - [1484 | Group Sold Products By The Date](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1484%20-%20Group%20Sold%20Products%20By%20The%20Date.md)
 - [1757 | Recyclable and Low Fat Products](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1757%20-%20Recyclable%20and%20Low%20Fat%20Products.md)
 - [1873 | Calculate Special Bonus](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1873%20-%20Calculate%20Special%20Bonus.md)
