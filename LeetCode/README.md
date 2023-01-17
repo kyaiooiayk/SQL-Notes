@@ -24,6 +24,6 @@
 - [1693 | Daily Leads and Partners](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1693%20-%20Daily%20Leads%20and%20Partners.md)
 - [1741 | Find Total Time Spent by Each Employee](https://github.com/kyaiooiayk/SQL-Notes/tree/main/LeetCode/files)
 - [1757 | Recyclable and Low Fat Products](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1757%20-%20Recyclable%20and%20Low%20Fat%20Products.md)
-- [1795 | Rearrange Products Table()]
+- [1795 | Rearrange Products Table](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1795%20-%20Rearrange%20Products%20Table.md)
 - [1873 | Calculate Special Bonus](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1873%20-%20Calculate%20Special%20Bonus.md)
 ***
