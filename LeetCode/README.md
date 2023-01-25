@@ -29,5 +29,5 @@
 - [1795 | Rearrange Products Table](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1795%20-%20Rearrange%20Products%20Table.md)
 - [1873 | Calculate Special Bonus](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1873%20-%20Calculate%20Special%20Bonus.md)
 - [1890 | The Latest Login in 2020](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1890%20-%20The%20Latest%20Login%20in%202020.md)
-- [1965 | Employees With Missing Information]()
+- [1965 | Employees With Missing Information](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1965%20-%20Employees%20With%20Missing%20Information.md)
 ***
