@@ -83,7 +83,7 @@ insert into Rides (id, user_id, distance) values ('9', '7', '230')
 SELECT U.name, IFNULL(SUM(r.distance),0) AS travelled_distance
 FROM Users AS U
 LEFT JOIN Rides AS R ON U.id = R.user_id
-GROUP by  U.ID
-ORDER BY  travelled_distance DESC, U.name
+GROUP by U.ID
+ORDER BY travelled_distance DESC, U.name
 ```
 ***
