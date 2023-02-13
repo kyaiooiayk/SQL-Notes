@@ -13,6 +13,10 @@ Each notebook has two versions (all python scripts are unaffected by this):
 - [leetcode](https://leetcode.com/) also allows you to try out some problem directly on your browser.
 ***
 
+## How to run SQL queries from your jupyter notebook?
+- [JupySQL: Better SQL in Jupyter](https://ploomber.io/blog/jupysql/?utm_source=substack&utm_medium=email)
+***
+
 ## How many versions exhist?
 - MySQL is an open-source relational database system.
 - Oracle SQL is also a relational database system but it's not open-source.
