@@ -10,6 +10,11 @@
   - **Durable** – System failures or restarts do not affect committed transactions.
 ***
 
+## Normalisation
+- Normalisation is the process to eliminate data redundancy and enhance data integrity in the table. Normalization also helps to organize the data in the database. It is a multi-step process that sets the data into tabular form and removes the duplicated data from the relational tables.
+- Normalisation organises the columns and tables of a database to ensure that database integrity constraints properly execute their dependencies. It is a systematic technique of decomposing tables to eliminate data redundancy (repetition) and undesirable characteristics like Insertion, Update, and Deletion anomalies.
+***
+
 ## A note on the notebook rendering
 Each notebook has two versions (all python scripts are unaffected by this):
 - One where all the markdown comments are rendered in black and white. These are placed in the folder named `GitHub_MD_rendering` where MD stands for MarkDown.
