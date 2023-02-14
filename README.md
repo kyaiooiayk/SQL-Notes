@@ -2,6 +2,14 @@
 *List of notebooks/cheatsheets and more focused on SQL*
 ***
 
+##  ACID
+- ACID is an acronym for four interdependent properties: Atomicity, Consistency, Isolation, and Durability. Much of the architecture of any modern relational database is founded on these properties. Understanding the ACID properties of a transaction is a prerequisite for understanding many facets of SQL Server.
+  - **Atomic** – Transaction acting on several pieces of information complete only if all pieces successfully save.   Here, “all or nothing” applies to the transaction.
+  - **Consistent** – The saved data cannot violate the integrity of the database.
+  - **Isolation** – No other transactions take place and affect the transaction in question.   This prevents “mid-air collisions.”
+  - **Durable** – System failures or restarts do not affect committed transactions.
+***
+
 ## A note on the notebook rendering
 Each notebook has two versions (all python scripts are unaffected by this):
 - One where all the markdown comments are rendered in black and white. These are placed in the folder named `GitHub_MD_rendering` where MD stands for MarkDown.
