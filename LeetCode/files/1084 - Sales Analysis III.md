@@ -36,7 +36,7 @@ We return only product 1 as it is the product that was only sold in the spring o
 ***
 
 ## SQL schema
-```
+```sql
 Create table If Not Exists Product (product_id int, product_name varchar(10), unit_price int)
 Create table If Not Exists Sales (seller_id int, product_id int, buyer_id int, sale_date date, quantity int, price int)
 Truncate table Product
@@ -56,7 +56,7 @@ insert into Sales (seller_id, product_id, buyer_id, sale_date, quantity, price) 
 ***
 
 ## Solution #1
-```
+```sql
 # solution #1 slower
 SELECT product_id, product_name FROM Product
 WHERE product_id NOT IN
@@ -67,9 +67,10 @@ and product_id in (select product_id from sales)
 ***
 
 ## Solution #2
-```
-solution #2 faster
-select product_id ,product_name from product
-where product_id not in 
-(select product_id from sales where sale_date not between '2019-01-01' AND '2019-03-31' ) and product_id in (select product_id from sales)
+```sql
+# solution #2 faster
+SELECT product_id ,product_name FROM product
+WHERE product_id NOT IN
+(SELECT product_id FROM sales where sale_date NOT BETWEEN '2019-01-01' AND '2019-03-31' ) 
+AND product_id IN (SELECT product_id FROM sales)
 ```
