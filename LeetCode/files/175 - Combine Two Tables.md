@@ -4,7 +4,7 @@
 - Return the result table in any order.
 ***
 
-# SQL schema
+## SQL schema
 ```sql
 Create table If Not Exists Person (personId int, firstName varchar(255), lastName varchar(255))
 Create table If Not Exists Address (addressId int, personId int, city varchar(255), state varchar(255))
@@ -17,11 +17,11 @@ insert into Address (addressId, personId, city, state) values ('2', '3', 'Leetco
 ```
 ***
 
-# SQL version
+## SQL version
 - MySQL
 ***
 
-# Solution #1
+## Solution #1
 ```sql
 SELECT firstName, lastName, city, state FROM Person
 LEFT JOIN Address
