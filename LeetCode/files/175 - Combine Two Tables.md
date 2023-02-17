@@ -5,7 +5,7 @@
 ***
 
 # SQL schema
-```
+```sql
 Create table If Not Exists Person (personId int, firstName varchar(255), lastName varchar(255))
 Create table If Not Exists Address (addressId int, personId int, city varchar(255), state varchar(255))
 Truncate table Person
@@ -22,7 +22,7 @@ insert into Address (addressId, personId, city, state) values ('2', '3', 'Leetco
 ***
 
 # Solution #1
-```
+```sql
 SELECT firstName, lastName, city, state FROM Person
 LEFT JOIN Address
 ON Address.personId = Person.personId;
