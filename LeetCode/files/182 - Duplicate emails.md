@@ -20,8 +20,8 @@ Explanation: a@b.com is repeated two times.
 ```
 ***
 
-# SQL schema
-```
+## SQL schema
+```sql
 Create table If Not Exists Person (id int, email varchar(255))
 Truncate table Person
 insert into Person (id, email) values ('1', 'a@b.com')
@@ -30,12 +30,12 @@ insert into Person (id, email) values ('3', 'a@b.com')
 ```
 ***
 
-# SQL type
+## SQL type
 - MySQL
 ***
 
-# Solution #1
-```
+## Solution #1
+```sql
 SELECT Email
 FROM Person
 GROUP BY Email
