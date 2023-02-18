@@ -24,7 +24,7 @@ Explanation: Joe is the only employee who earns more than his manager.
 ***
 
 ## SQL schema
-```
+```sql
 Create table If Not Exists Employee (id int, name varchar(255), salary int, managerId int)
 Truncate table Employee
 insert into Employee (id, name, salary, managerId) values ('1', 'Joe', '70000', '3')
@@ -39,7 +39,7 @@ MySQL
 ***
 
 ## Solution
-```
+```sql
 select E1.Name AS Employee
 from Employee as E1, Employee as E2 
 where E1.ManagerId = E2.Id and E1.Salary > E2.Salary
