@@ -22,6 +22,7 @@
 - [1179 | Reformat Department Table](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1179%20-%20Reformat%20Department%20Table.md)
 - [1407 | Top Travellers](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1407%20-%20Top%20Travellers.md)
 - [1484 | Group Sold Products By The Date](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1484%20-%20Group%20Sold%20Products%20By%20The%20Date.md)
+- [1527 | Patients With a Condition]()
 - [1581 | Customer Who Visited but Did Not Make Any Transactions](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1581%20-%20Customer%20Who%20Visited%20but%20Did%20Not%20Make%20Any%20Transactions.md)
 - [1587 | Bank Account Summary II](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1587%20-%20Bank%20Account%20Summary%20II.md)
 - [1693 | Daily Leads and Partners](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1693%20-%20Daily%20Leads%20and%20Partners.md)
