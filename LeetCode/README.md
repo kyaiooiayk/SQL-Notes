@@ -39,5 +39,5 @@
 ***
 
 ## Medium
-- [1393 | Capital Gain Loss.md]()
+- [1393 | Capital Gain Loss.md](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1393%20-%20Capital%20Gain%20Loss.md)
 ***
