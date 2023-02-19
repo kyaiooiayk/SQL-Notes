@@ -24,7 +24,7 @@ Output:
 ```
 ***
 
-# SQL schema
+## SQL schema
 ```sql
 Create table If Not Exists Person (Id int, Email varchar(255))
 Truncate table Person
@@ -34,7 +34,7 @@ insert into Person (id, email) values ('3', 'john@example.com')
 ```
 ***
 
-# Solution #1
+## Solution #1
 ```sql
 DELETE p1
 FROM Person p1, Person p2
