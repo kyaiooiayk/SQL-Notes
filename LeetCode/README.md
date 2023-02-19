@@ -1,5 +1,7 @@
 # LeetCode SQL problems
+***
 
+## Easy
 - [175 | Combine Two Tables](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/175%20-%20Combine%20Two%20Tables.md)
 - [181 | Employees Earning More Than Their Managers
  ](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/181%20-%20Employees%20Earning%20More%20Than%20Their%20Managers.md)
@@ -34,4 +36,8 @@
 - [1873 | Calculate Special Bonus](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1873%20-%20Calculate%20Special%20Bonus.md)
 - [1890 | The Latest Login in 2020](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1890%20-%20The%20Latest%20Login%20in%202020.md)
 - [1965 | Employees With Missing Information](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1965%20-%20Employees%20With%20Missing%20Information.md)
+***
+
+## Medium
+- [1393 | Capital Gain Loss.md]()
 ***
