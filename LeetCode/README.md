@@ -39,5 +39,6 @@
 ***
 
 ## Medium
+- [626 | Exchange Seats](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/626%20-%20Exchange%20Seats.md)
 - [1393 | Capital Gain Loss.md](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1393%20-%20Capital%20Gain%20Loss.md)
 ***
