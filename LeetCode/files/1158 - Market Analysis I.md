@@ -76,4 +76,9 @@ insert into Items (item_id, item_brand) values ('4', 'HP')
 
 ## Solution #1
 ```sql
+SELECT user_id AS buyer_id, join_date, COUNT(order_id) AS orders_in_2019 
+FROM Users 
+LEFT JOIN Orders ON user_id = buyer_id 
+AND order_date LIKE '2019%' 
+GROUP BY user_id
 ```
