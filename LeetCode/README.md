@@ -6,7 +6,7 @@
 - [181 | Employees Earning More Than Their Managers
  ](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/181%20-%20Employees%20Earning%20More%20Than%20Their%20Managers.md)
 - [182 | Duplicate emails](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/182%20-%20Duplicate%20emails.md)
-- [183 | Customers Who Never Order.md](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/183%20-%20Customers%20Who%20Never%20Order.md)
+- [183 | Customers Who Never Order](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/183%20-%20Customers%20Who%20Never%20Order.md)
 - [196 | Delete Duplicate Emails](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/196%20-%20Delete%20Duplicate%20Emails.md)
 - [197 | Rising Temperature](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/197%20-%20Rising%20Temperature.md)
 - [511 | Game Play Analysis I](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/511%20-%20Game%20Play%20Analysis%20I.md)
