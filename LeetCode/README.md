@@ -39,6 +39,7 @@
 ***
 
 ## Medium
+- [78 | Rank Scores]() | `DENSE_RANK() OVER(ORDER BY col#1 DESC)`
 - [626 | Exchange Seats](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/626%20-%20Exchange%20Seats.md) | Nested `IF` statements
 - [1158 | Market Analysis I](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1158%20-%20Market%20Analysis%20I.md) | `LEFT JOIN Table1 ON col1 = col2 AND col3 LIKE 'text_to_match%'`
 - [1393 | Capital Gain Loss.md](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1393%20-%20Capital%20Gain%20Loss.md)
