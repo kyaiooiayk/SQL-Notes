@@ -51,5 +51,8 @@ insert into Scores (id, score) values ('6', '3.65')
 
 ## Solution #1
 ```sql
+SELECT score, 
+DENSE_RANK() over(ORDER BY score DESC) AS "rank"
+FROM Scores
 ```
 ***
