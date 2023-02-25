@@ -40,8 +40,9 @@
 
 ## Medium
 - [78 | Rank Scores](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/78%20-%20Rank%20Scores.md) | `DENSE_RANK() OVER(ORDER BY col#1 DESC)`
+- [184 | Department Highest Salary](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/184%20-%20Department%20Highest%20Salary.md) | 
+`JOIN table#1 ON table#2.col#1 = table#1.col#2`
 - [626 | Exchange Seats](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/626%20-%20Exchange%20Seats.md) | Nested `IF` statements
 - [1158 | Market Analysis I](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1158%20-%20Market%20Analysis%20I.md) | `LEFT JOIN Table1 ON col1 = col2 AND col3 LIKE 'text_to_match%'`
 - [1393 | Capital Gain Loss.md](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1393%20-%20Capital%20Gain%20Loss.md) | `SUM(CASE WHEN COL#1 = 'Sell' THEN col#2 ELSE -col#2 END)`
-- [184 | Department Highest Salary](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/184%20-%20Department%20Highest%20Salary.md) | ``
 ***
