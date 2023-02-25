@@ -29,7 +29,7 @@
 - [1587 | Bank Account Summary II](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1587%20-%20Bank%20Account%20Summary%20II.md)
 - [1693 | Daily Leads and Partners](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1693%20-%20Daily%20Leads%20and%20Partners.md)
 - [1667 | Fix Names in a Table](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1667%20-%20Fix%20Names%20in%20a%20Table.md)
-- [1729 | Find Followers Count](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1729%20-%20Find%20Followers%20Count.md)
+- [1729 | Find Followers Count](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1729%20-%20Find%20Followers%20Count.md) | `COUNT(col#1)`
 - [1741 | Find Total Time Spent by Each Employee](https://github.com/kyaiooiayk/SQL-Notes/tree/main/LeetCode/files)
 - [1757 | Recyclable and Low Fat Products](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1757%20-%20Recyclable%20and%20Low%20Fat%20Products.md)
 - [1795 | Rearrange Products Table](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1795%20-%20Rearrange%20Products%20Table.md)
