@@ -40,6 +40,7 @@
 
 ## Medium
 - [78 | Rank Scores](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/78%20-%20Rank%20Scores.md) | `DENSE_RANK() OVER(ORDER BY col#1 DESC)`
+- [180 | Consecutive Numbers]()
 - [184 | Department Highest Salary](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/184%20-%20Department%20Highest%20Salary.md) | 
 `JOIN table#1 ON table#2.col#1 = table#1.col#2`
 - [626 | Exchange Seats](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/626%20-%20Exchange%20Seats.md) | Nested `IF` statements
