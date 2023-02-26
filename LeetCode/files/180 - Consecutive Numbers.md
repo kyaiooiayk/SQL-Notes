@@ -48,9 +48,74 @@ insert into Logs (id, num) values ('7', '2')
 - We select the num column from the first copy of the table and use the DISTINCT keyword to remove duplicates.
 ```sql
 SELECT DISTINCT l1.num AS ConsecutiveNums
-FROM Logs l1
-JOIN Logs l2 ON l1.id = l2.id - 1
-JOIN Logs l3 ON l1.id = l3.id - 2
+FROM Logs AS l1
+JOIN Logs AS l2 ON l1.id = l2.id - 1
+JOIN Logs AS l3 ON l1.id = l3.id - 2
 WHERE l1.num = l2.num AND l2.num = l3.num;
+```
+
+## Step-by-step solution
+- This code:
+```sql
+SELECT * 
+FROM Logs AS l1
+JOIN Logs AS l2 ON l1.id = l2.id - 1
+JOIN Logs AS l3 ON l1.id = l3.id - 2
+```
+would output:
+```
+| id | num | id | num |
+| -- | --- | -- | --- |
+| 1  | 1   | 2  | 1   |
+| 2  | 1   | 3  | 1   |
+| 3  | 1   | 4  | 2   |
+| 4  | 2   | 5  | 1   |
+| 5  | 1   | 6  | 2   |
+| 6  | 2   | 7  | 2   |
+```
+- This code:
+```sql
+SELECT *
+FROM Logs AS l1
+JOIN Logs AS l2 ON l1.id = l2.id - 1
+JOIN Logs AS l3 ON l1.id = l3.id - 2
+```
+would output:
+```
+| id | num | id | num | id | num |
+| -- | --- | -- | --- | -- | --- |
+| 1  | 1   | 2  | 1   | 3  | 1   |
+| 2  | 1   | 3  | 1   | 4  | 2   |
+| 3  | 1   | 4  | 2   | 5  | 1   |
+| 4  | 2   | 5  | 1   | 6  | 2   |
+| 5  | 1   | 6  | 2   | 7  | 2   |
+```
+- This code:
+```sql
+SELECT * 
+FROM Logs AS l1
+JOIN Logs AS l2 ON l1.id = l2.id - 1
+JOIN Logs AS l3 ON l1.id = l3.id - 2
+WHERE l1.num = l2.num AND l2.num = l3.num
+```
+would output:
+```
+| id | num | id | num | id | num |
+| -- | --- | -- | --- | -- | --- |
+| 1  | 1   | 2  | 1   | 3  | 1   |
+```
+- This code:
+```sql
+SELECT DISTINCT l1.num AS ConsecutiveNums
+FROM Logs AS l1
+JOIN Logs AS l2 ON l1.id = l2.id - 1
+JOIN Logs AS l3 ON l1.id = l3.id - 2
+WHERE l1.num = l2.num AND l2.num = l3.num
+```
+would output:
+```
+| ConsecutiveNums |
+| --------------- |
+| 1               |
 ```
 ***
