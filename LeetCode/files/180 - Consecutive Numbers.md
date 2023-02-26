@@ -44,6 +44,13 @@ insert into Logs (id, num) values ('7', '2')
 ***
 
 ## Solution #1
+- By joining the table Logs with itself three times, using aliases l1, l2, and l3. We then check that l1.num = l2.num and l2.num = l3.num, meaning that the number in the num column appears at least three times consecutively. 
+- We select the num column from the first copy of the table and use the DISTINCT keyword to remove duplicates.
 ```sql
+SELECT DISTINCT l1.num AS ConsecutiveNums
+FROM Logs l1
+JOIN Logs l2 ON l1.id = l2.id - 1
+JOIN Logs l3 ON l1.id = l3.id - 2
+WHERE l1.num = l2.num AND l2.num = l3.num;
 ```
 ***
