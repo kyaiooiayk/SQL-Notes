@@ -52,5 +52,8 @@ insert into Employee (id, salary) values ('3', '300')
 
 ## Solution #1
 ```sql
+SELECT MAX(salary) as SecondHighestSalary
+FROM Employee
+WHERE salary NOT IN (SELECT MAX(salary) FROM Employee)
 ```
 ***
