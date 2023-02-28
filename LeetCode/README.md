@@ -40,7 +40,7 @@
 
 ## Medium
 - [78 | Rank Scores](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/78%20-%20Rank%20Scores.md) | `DENSE_RANK() OVER(ORDER BY col#1 DESC)`
-- [176 | Second Highest Salary]() | `FROM Table#1 WHERE col#1 NOT IN (SELECT col#1 FROM Table#1)`
+- [176 | Second Highest Salary](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/176%20-%20Second%20Highest%20Salary.md) | `FROM Table#1 WHERE col#1 NOT IN (SELECT col#1 FROM Table#1)`
 - [177 | Nth Highest Salary](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/177%20-%20Nth%20Highest%20Salary.md) | `CREATE FUNCTION`
 - [180 | Consecutive Numbers](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/180%20-%20Consecutive%20Numbers.md) | Consecutive `JOIN table#1 AS col1=col2`
 - [184 | Department Highest Salary](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/184%20-%20Department%20Highest%20Salary.md) | 
