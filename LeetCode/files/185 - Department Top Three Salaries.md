@@ -62,5 +62,19 @@ insert into Department (id, name) values ('2', 'Sales')
 
 ## Solution #1
 ```sql
+SELECT
+    d.name department,
+    e1.name employee,
+    e1.salary salary
+FROM
+    employee e1
+    join employee e2
+    join department d ON e1.departmentid = e2.departmentid
+    AND e1.salary <= e2.salary
+    AND d.id = e2.departmentid
+GROUP BY
+    1, 2, 3
+HAVING
+    count(distinct(e2.salary)) <= 3
 ```
 ***
