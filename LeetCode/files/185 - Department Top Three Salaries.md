@@ -68,13 +68,133 @@ SELECT
     e1.salary salary
 FROM
     employee e1
-    join employee e2
-    join department d ON e1.departmentid = e2.departmentid
+    JOIN employee e2
+    JOIN department d ON e1.departmentid = e2.departmentid
     AND e1.salary <= e2.salary
     AND d.id = e2.departmentid
 GROUP BY
     1, 2, 3
 HAVING
     count(distinct(e2.salary)) <= 3
+```
+***
+
+## Step-by-step solution
+- This code:
+```sql
+SELECT
+    d.name department,
+    e1.name employee,
+    e1.salary salary
+FROM
+    employee e1
+    JOIN employee e2
+    JOIN department d ON e1.departmentid = e2.departmentid
+```
+would output
+```sql
+Output
+| department | employee | salary |
+| ---------- | -------- | ------ |
+| IT         | Will     | 70000  |
+| Sales      | Will     | 70000  |
+| IT         | Randy    | 85000  |
+| Sales      | Randy    | 85000  |
+| IT         | Janet    | 69000  |
+.......
+```
+- This code
+```sql
+SELECT
+    d.name department,
+    e1.name employee,
+    e1.salary salary
+FROM
+    employee e1
+    JOIN employee e2
+    JOIN department d ON e1.departmentid = e2.departmentid
+    AND e1.salary <= e2.salary
+    AND d.id = e2.departmentid
+```
+would output
+```sql
+| department | employee | salary |
+| ---------- | -------- | ------ |
+| IT         | Will     | 70000  |
+| IT         | Randy    | 85000  |
+| IT         | Janet    | 69000  |
+| IT         | Joe      | 85000  |
+| Sales      | Sam      | 60000  |
+| Sales      | Henry    | 80000  |
+| Sales      | Sam      | 60000  |
+| IT         | Will     | 70000  |
+| IT         | Randy    | 85000  |
+| IT         | Janet    | 69000  |
+| IT         | Max      | 90000  |
+| IT         | Joe      | 85000  |
+| IT         | Janet    | 69000  |
+| IT         | Will     | 70000  |
+| IT         | Randy    | 85000  |
+| IT         | Janet    | 69000  |
+| IT         | Joe      | 85000  |
+| IT         | Will     | 70000  |
+| IT         | Janet    | 69000  |
+```
+- This code
+```sql
+SELECT
+    d.name department,
+    e1.name employee,
+    e1.salary salary
+FROM
+    employee e1
+    JOIN employee e2
+    JOIN department d ON e1.departmentid = e2.departmentid
+    AND e1.salary <= e2.salary
+    AND d.id = e2.departmentid
+GROUP BY
+    1, 2, 3
+```
+would output
+```sql
+| department | employee | salary |
+| ---------- | -------- | ------ |
+| IT         | Will     | 70000  |
+| IT         | Randy    | 85000  |
+| IT         | Janet    | 69000  |
+| IT         | Joe      | 85000  |
+| Sales      | Sam      | 60000  |
+| Sales      | Henry    | 80000  |
+| IT         | Max      | 90000  |
+```
+- This code:
+```sql
+# Write your MySQL query statement below
+SELECT
+    d.name department,
+    e1.name employee,
+    e1.salary salary
+FROM
+    employee e1
+    JOIN employee e2
+    JOIN department d ON e1.departmentid = e2.departmentid
+    AND e1.salary <= e2.salary
+    AND d.id = e2.departmentid
+# This makes sure we have department names in our final table.
+GROUP BY
+    1, 2, 3
+HAVING
+    count(distinct(e2.salary)) <= 3
+```
+would output
+```sql
+| department | employee | salary |
+| ---------- | -------- | ------ |
+| IT         | Joe      | 85000  |
+| IT         | Max      | 90000  |
+| IT         | Randy    | 85000  |
+| IT         | Will     | 70000  |
+| Sales      | Henry    | 80000  |
+| Sales      | Sam      | 60000  |
 ```
 ***
