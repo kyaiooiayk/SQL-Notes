@@ -49,3 +49,7 @@
 - [1158 | Market Analysis I](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1158%20-%20Market%20Analysis%20I.md) | `LEFT JOIN Table1 ON col1 = col2 AND col3 LIKE 'text_to_match%'`
 - [1393 | Capital Gain Loss.md](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/1393%20-%20Capital%20Gain%20Loss.md) | `SUM(CASE WHEN COL#1 = 'Sell' THEN col#2 ELSE -col#2 END)`
 ***
+
+## Hard
+- [185 | Department Top Three Salaries]()
+***
