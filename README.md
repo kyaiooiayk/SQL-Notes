@@ -31,9 +31,13 @@ Each notebook has two versions (all python scripts are unaffected by this):
 ***
 
 ## How many versions exhist?
-- MySQL is an open-source relational database system.
-- Oracle SQL is also a relational database system but it's not open-source.
-- PostgreSQL is an open-source, object-relational database management system. It is fully SQL-compliant and was built to be feature-rich.
+- `MySQL` is an open-source relational database system.
+- `Oracle SQL` is also a relational database system but it's not open-source.
+- `PostgreSQL` is an open-source, object-relational database management system. It is fully SQL-compliant and was built to be feature-rich.
+***
+
+## How to optimise your SQL queries
+- In big data analytics, using a subquery is not efficient to process millions of rows of data. Using `joins` would be a better approach as most RDBMS's are optimized for joins.
 ***
 
 ## Other resources
