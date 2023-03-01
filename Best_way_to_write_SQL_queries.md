@@ -15,13 +15,13 @@
 
 ## 1 - Always start with FROM/JOIN
 - Intuitively, the first step is to read the tables using the FROM clause and perform JOIN(if required). So, you should always start your query with the ‘FROM’/‘JOIN’ statement.
-```
+```sql
 FROM Customers
 INNER JOIN Orders
 ON Customers.customer_id = Orders.customer_id
 ```
 - We can also filter rows from the input tables even before the join is executed. We can do this by adding the ‘AND’ clause after the ‘ON’ clause of the join.
-```
+```sql
 FROM Customers
 INNER JOIN Orders
 ON Customers.customer_id = Orders.customer_id
@@ -31,7 +31,7 @@ AND country in ('USA','UK')
 ## 2 - Then move to WHERE
 - The second clause in the order of execution is the WHERE clause. It is used to filter the data tables after the join has been applied.
 - The WHERE clause is very helpful to reduce the number of rows especially when we are working with big datasets having millions of rows.
-```
+```sql
 FROM Customers
 INNER JOIN Orders
 ON Customers.customer_id = Orders.customer_id
@@ -40,8 +40,8 @@ WHERE country in ('USA','UK')
 ***
 
 ## 3 - Then use GROUP BY
-- Group By clause should be written **after** the `WHERE` clause. It is used to group the rows based on the selected column/columns.
-```
+- `GROUP BY` clause should be written **after** the `WHERE` clause. It is used to group the rows based on the selected column/columns.
+```sql
 FROM Customers
 INNER JOIN Orders
 ON Customers.customer_id = Orders.customer_id
@@ -49,9 +49,9 @@ WHERE country in ('USA','UK')
 GROUP BY Customers.customer_id
 ```
 ## 4 - HAVING after GROUP BY
-- The HAVING clause gets executed **after** `GROUP BY`, it is used to filter the aggregated rows that were generated in the group by operation.
+- The `HAVING` clause gets executed **after** `GROUP BY`, it is used to filter the aggregated rows that were generated in the group by operation.
 - In our example, we will filter the sum of the amount spent by each customer to be greater than 300.
-```
+```sql
 FROM Customers
 INNER JOIN Orders
 ON Customers.customer_id = Orders.customer_id
@@ -62,7 +62,7 @@ HAVING sum(amount) >300
 
 ## 5 - Then write the SELECT clause
 - Columns that we want to show in the output are selected using the `SELECT` clause.
-```
+```sql
 SELECT Customers.customer_id, sum(amount) as total_amount
 FROM Customers
 INNER JOIN Orders
@@ -75,8 +75,8 @@ HAVING sum(amount) >300
 
 ## 6 - Use ORDER BY after the SELECT clause
 - After selecting the columns, the next step is to provide the order in which we want to output the rows.
-- In our example, we can use the ORDER BY clause to order the rows in descending order of total spend.
-```
+- In our example, we can use the `ORDER BY` clause to order the rows in descending order of total spend.
+```sql
 SELECT Customers.customer_id, sum(amount) as total_amount
 FROM Customers
 INNER JOIN Orders
@@ -89,7 +89,7 @@ ORDER BY total_amount desc
 
 ## 7 - Write the LIMIT clause at last
 - The last step in the writing sequence is to limit the number of rows that we want to see in the output.
-```
+```sql
 SELECT Customers.customer_id, sum(amount) as total_amount
 FROM Customers
 INNER JOIN Orders
