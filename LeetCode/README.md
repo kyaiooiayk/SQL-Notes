@@ -51,5 +51,5 @@
 ***
 
 ## Hard
-- [185 | Department Top Three Salaries]()
+- [185 | Department Top Three Salaries](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/185%20-%20Department%20Top%20Three%20Salaries.md) | Nested `JOIN`
 ***
