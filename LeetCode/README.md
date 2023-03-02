@@ -52,5 +52,5 @@
 
 ## Hard
 - [185 | Department Top Three Salaries](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/185%20-%20Department%20Top%20Three%20Salaries.md) | Nested `JOIN`
-- [601 - Human Traffic of Stadium]() |
+- [601 - Human Traffic of Stadium](https://github.com/kyaiooiayk/SQL-Notes/blob/main/LeetCode/files/601%20-%20Human%20Traffic%20of%20Stadium.md)
 ***
