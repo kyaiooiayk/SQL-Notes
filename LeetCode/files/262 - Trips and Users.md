@@ -59,7 +59,7 @@ On 2013-10-03:
 ```
 ***
 
-- SQL Schema
+## SQL Schema
 ```sql
 Create table If Not Exists Trips (id int, client_id int, driver_id int, city_id int, status ENUM('completed', 'cancelled_by_driver', 'cancelled_by_client'), request_at varchar(50))
 Create table If Not Exists Users (users_id int, banned varchar(50), role ENUM('client', 'driver', 'partner'))
