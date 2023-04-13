@@ -23,7 +23,7 @@ Each notebook has two versions (all python scripts are unaffected by this):
 
 ## Where to practice
 - [www.w3schools.com](https://www.w3schools.com/sql/default.asp) has some very nice tutorials where you can also try out your code in an interpreter running on their web browser. 
-- w3schools offere a [live SQL server](https://www.w3schools.com/sql/trysqlserver.asp?filename=trysql_func_sqlserver_difference) with some table available.
+- w3schools offere a [live SQL server](https://www.w3schools.com/sql/trysqlserver.asp?filename=trysql_func_sqlserver_difference) with some tables available. Probably the easiest, cheapest and quickiest way to start practicing SQL queries.
 - [leetcode](https://leetcode.com/) also allows you to try out some problem directly on your browser.
 ***
 
