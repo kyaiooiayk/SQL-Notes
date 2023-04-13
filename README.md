@@ -21,8 +21,9 @@ Each notebook has two versions (all python scripts are unaffected by this):
 - One where all the markdown comments are rendered in coloured.
 ***
 
-## How to practice
+## Where to practice
 - [www.w3schools.com](https://www.w3schools.com/sql/default.asp) has some very nice tutorials where you can also try out your code in an interpreter running on their web browser. 
+- w3schools offere a [live SQL server](https://www.w3schools.com/sql/trysqlserver.asp?filename=trysql_func_sqlserver_difference) with some table available.
 - [leetcode](https://leetcode.com/) also allows you to try out some problem directly on your browser.
 ***
 
