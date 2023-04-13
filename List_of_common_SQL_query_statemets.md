@@ -4,65 +4,57 @@
 ***
 
 ## Database creation
-
-```
-The following SQL statement creates a database called "testDB":
-    CREATE DATABASE testDB;
-```
-***
-
-```
-The BACKUP DATABASE statement is used in SQL Server to create a full back up of an existing SQL database.
-    BACKUP DATABASE databasename
-    TO DISK = 'filepath';
+- The following SQL statement creates a database called "testDB":
+```sql
+CREATE DATABASE testDB;
 ```
 ***
-
-```
-A differential back up only backs up the parts of the database that have changed since the last full database backup.
-    BACKUP DATABASE databasename
-    TO DISK = 'filepath'
-    WITH DIFFERENTIAL; 
+- The BACKUP DATABASE statement is used in SQL Server to create a full back up of an existing SQL database.
+```sql
+BACKUP DATABASE databasename
+TO DISK = 'filepath';
 ```
 ***
-
-```
-The following example creates a table called "Persons" that contains five columns: PersonID, LastName, FirstName, Address, and City:
-    CREATE TABLE Persons (
-        PersonID int,
-        LastName varchar(255),
-        FirstName varchar(255),
-        Address varchar(255),
-        City varchar(255)
-    );
+- A differential back up only backs up the parts of the database that have changed since the last full database backup.
+```sql
+BACKUP DATABASE databasename
+TO DISK = 'filepath'
+WITH DIFFERENTIAL; 
 ```
 ***
-
+- The following example creates a table called "Persons" that contains five columns: PersonID, LastName, FirstName, Address, and City:
+```sql
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
 ```
-To add a column in a table, use the following syntax:
-    ALTER TABLE table_name
-    ADD column
+***
+- To add a column in a table, use the following syntax:
+```sql
+ALTER TABLE table_name
+ADD column
 _name datatype;
 ```
 ***
-
-```
-The following SQL adds an "Email" column to the "Customers" table:
-    ALTER TABLE Customers
-    ADD Email varchar(255);
+- The following SQL adds an "Email" column to the "Customers" table:
+```sql
+ALTER TABLE Customers
+ADD Email varchar(255);
 ```
 ***
-
-```   
-The following example creates a table called "Persons" that contains : PersonID, LastName, FirstName, Address, and City. where the last columns will accept a NULL
-value which means no data is stored for those entries
-    CREATE TABLE Persons (
-        PersonID int PRIMARY KEY,
-        LastName varchar(255) NOT NULL,
-        FirstName varchar(255) NOT NULL,
-        Address varchar(255) NULL,
-        City varchar(255) NULL
-    );    
+- The following example creates a table called "Persons" that contains : PersonID, LastName, FirstName, Address, and City. where the last columns will accept a NULL value which means no data is stored for those entries
+```sql
+CREATE TABLE Persons (
+    PersonID int PRIMARY KEY,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255) NOT NULL,
+    Address varchar(255) NULL,
+    City varchar(255) NULL
+);    
 ```
 ***
 
