@@ -35,6 +35,8 @@ Each notebook has two versions (all python scripts are unaffected by this):
 - `MySQL` is an open-source relational database system.
 - `Oracle SQL` is also a relational database system but it's not open-source.
 - `PostgreSQL` is an open-source, object-relational database management system. It is fully SQL-compliant and was built to be feature-rich.
+- `Imapala SQL` is a MPP (Massive Parallel Processing) SQL query engine for processing huge volumes of data that is stored in Hadoop cluster. It is an open source software which is written in C++ and Java. I
+- `Hive SQL` allows users to read, write, and manage petabytes of data using SQL. Hive is built on top of Apache Hadoop, which is an open-source framework used to efficiently store and process large datasets.
 ***
 
 ## How to optimise your SQL queries
