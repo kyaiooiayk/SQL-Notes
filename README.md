@@ -31,7 +31,7 @@ Each notebook has two versions (all python scripts are unaffected by this):
 - [JupySQL: Better SQL in Jupyter](https://ploomber.io/blog/jupysql/?utm_source=substack&utm_medium=email)
 ***
 
-## How many versions exhist?
+## How many versions?
 - `MySQL` is an open-source relational database system.
 - `Oracle SQL` is also a relational database system but it's not open-source.
 - `PostgreSQL` is an open-source, object-relational database management system. It is fully SQL-compliant and was built to be feature-rich.
