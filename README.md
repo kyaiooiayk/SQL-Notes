@@ -21,10 +21,18 @@ Each notebook has two versions (all python scripts are unaffected by this):
 - One where all the markdown comments are rendered in coloured.
 ***
 
-## Where to practice
+## 🧑‍🏫️Where to practice: online free SQL engine🧑‍🏫️
 - [www.w3schools.com](https://www.w3schools.com/sql/default.asp) has some very nice tutorials where you can also try out your code in an interpreter running on their web browser. 
 - w3schools offere a [live SQL server](https://www.w3schools.com/sql/trysqlserver.asp?filename=trysql_func_sqlserver_difference) with some tables available. Probably the easiest, cheapest and quickiest way to start practicing SQL queries.
 - [leetcode](https://leetcode.com/) also allows you to try out some problem directly on your browser.
+- [DataLemur](https://datalemur.com/questions)
+- [SQLpad](https://sqlpad.io/)
+- [Mode](https://mode.com/)
+- [Strat Scratch](https://www.stratascratch.com/)
+- [SQL Zoo](https://sqlzoo.net/wiki/SQL_Tutorial)
+- [Hacker Rank](https://www.hackerrank.com/)
+- [SQL-Practice](https://www.sql-practice.com/)
+- [Programiz](https://www.programiz.com/sql/online-compiler/)
 ***
 
 ## How to run SQL queries from your jupyter notebook?
