@@ -46,6 +46,7 @@ Each notebook has two versions (all python scripts are unaffected by this):
 - `Imapala SQL` is a MPP (Massive Parallel Processing) SQL query engine for processing huge volumes of data that is stored in Hadoop cluster. It is an open source software which is written in C++ and Java. I
 - `Hive SQL` allows users to read, write, and manage petabytes of data using SQL. Hive is built on top of Apache Hadoop, which is an open-source framework used to efficiently store and process large datasets.
 - [SQlite](https://www.sqlite.org/index.html) is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world.
+- [T-SQL](https://learn.microsoft.com/en-us/sql/t-sql/language-reference?view=sql-server-ver16) stands for transact-SQL. It is a set of programming extensions from Sybase and Microsoft that add several features to the Structured Query Language (SQL), including transaction control, exception and error handling, row processing and declared variables. While T-SQL is an extension to SQL, SQL is a programming language. T-SQL contains procedural programming and local variable, while SQL does not. T-SQL is proprietary, while SQL is an open format.
 ***
 
 ## How to optimise your SQL queries
