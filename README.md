@@ -2,6 +2,10 @@
 *List of notebooks/cheatsheets and more focused on SQL*
 ***
 
+## CRUD
+CRUD is the acronym for CREATE, READ, UPDATE and DELETE. These terms describe the four essential operations for creating and managing persistent data elements, mainly in relational and NoSQL databases.
+***
+
 ##  ACID
 - ACID is an acronym for four interdependent properties: Atomicity, Consistency, Isolation, and Durability. Much of the architecture of any modern relational database is founded on these properties. Understanding the ACID properties of a transaction is a prerequisite for understanding many facets of SQL Server.
   - **Atomic** – Transaction acting on several pieces of information complete only if all pieces successfully save.   Here, “all or nothing” applies to the transaction.
