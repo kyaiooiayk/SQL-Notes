@@ -65,5 +65,6 @@ Each notebook has two versions (all python scripts are unaffected by this):
 - https://github.com/imrankhan17/apprentices-training/tree/master/session3
 - [MySQL vs Oracle SQL](https://towardsdatascience.com/mysql-vs-oracle-sql-a97a7659f992)
 - [PostgreSQL vs MySQL: Explore Their 12 Critical Differences](https://kinsta.com/blog/postgresql-vs-mysql/)
-- [Advanced DQL Puzzles](https://github.com/smpetersgithub/AdvancedSQLPuzzles)
+- [Advanced SQL Puzzles](https://github.com/smpetersgithub/AdvancedSQLPuzzles)
+- [The Querynomicon - An Introduction to SQL for Weary Data Scientists](https://gvwilson.github.io/sql-tutorial/?utm_source=substack&utm_medium=email)
 ***
