@@ -37,6 +37,7 @@ Each notebook has two versions (all python scripts are unaffected by this):
 - [Hacker Rank](https://www.hackerrank.com/)
 - [SQL-Practice](https://www.sql-practice.com/)
 - [Programiz](https://www.programiz.com/sql/online-compiler/)
+- [Superintendent.app](https://superintendent.app/) | You can write SQL to query and visualize gigabytes of CSV files on your local machine. 
 ***
 
 ## How to run SQL queries from your jupyter notebook?
@@ -67,4 +68,5 @@ Each notebook has two versions (all python scripts are unaffected by this):
 - [PostgreSQL vs MySQL: Explore Their 12 Critical Differences](https://kinsta.com/blog/postgresql-vs-mysql/)
 - [Advanced SQL Puzzles](https://github.com/smpetersgithub/AdvancedSQLPuzzles)
 - [The Querynomicon - An Introduction to SQL for Weary Data Scientists](https://gvwilson.github.io/sql-tutorial/?utm_source=substack&utm_medium=email)
+- [When do you prefer SQL or Python for Data Engineering?](https://old.reddit.com/r/dataengineering/comments/1cywpgw/when_do_you_prefer_sql_or_python_for_data/)
 ***
