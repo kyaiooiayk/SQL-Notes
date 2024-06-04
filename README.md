@@ -69,4 +69,5 @@ Each notebook has two versions (all python scripts are unaffected by this):
 - [Advanced SQL Puzzles](https://github.com/smpetersgithub/AdvancedSQLPuzzles)
 - [The Querynomicon - An Introduction to SQL for Weary Data Scientists](https://gvwilson.github.io/sql-tutorial/?utm_source=substack&utm_medium=email)
 - [When do you prefer SQL or Python for Data Engineering?](https://old.reddit.com/r/dataengineering/comments/1cywpgw/when_do_you_prefer_sql_or_python_for_data/)
+- [Bird's eyeys view of SQL](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a563e6f-db16-4e98-8713-d930b43b71b3_1536x1536.gif)
 ***
