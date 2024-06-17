@@ -58,6 +58,13 @@ Each notebook has two versions (all python scripts are unaffected by this):
 - In big data analytics, using a subquery is not efficient to process millions of rows of data. Using `joins` would be a better approach as most RDBMS's are optimized for joins.
 ***
 
+## SQL superfluous commands
+- `(INNER) JOIN`: Returns records that have matching values in both tables
+- `LEFT (OUTER) JOIN`: Returns all records from the left table, and the matched records from the right table
+- `RIGHT (OUTER) JOIN`: Returns all records from the right table, and the matched records from the left table
+- `FULL (OUTER) JOIN`: Returns all records when there is a match in either left or right table
+***
+
 ## Other resources
 - [The Not-so-Sexy SQL Concepts to Make You Stand Out](https://www.kdnuggets.com/2022/02/not-so-sexy-sql-concepts-stand-out.html)
 - https://www.kdnuggets.com/2021/10/data-science-sql-interview-questions.html
