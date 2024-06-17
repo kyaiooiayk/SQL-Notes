@@ -58,11 +58,9 @@ Each notebook has two versions (all python scripts are unaffected by this):
 - In big data analytics, using a subquery is not efficient to process millions of rows of data. Using `joins` would be a better approach as most RDBMS's are optimized for joins.
 ***
 
-## SQL superfluous commands
-- `(INNER) JOIN`: Returns records that have matching values in both tables
-- `LEFT (OUTER) JOIN`: Returns all records from the left table, and the matched records from the right table
-- `RIGHT (OUTER) JOIN`: Returns all records from the right table, and the matched records from the left table
-- `FULL (OUTER) JOIN`: Returns all records when there is a match in either left or right table
+## SQL and the pitfall of Ven Diagram
+- Often the jons are exaplained via Ven diagrams but this is highgly confusing. There are cases where this is not enough to explain the differences.
+- One such a case is with `CROSS JOIN` and `OUTER JOIN` where both ven diagram looks like the same but internally in SQL they have a different meaning!
 ***
 
 ## Other resources
